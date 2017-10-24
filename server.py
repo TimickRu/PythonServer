@@ -1,7 +1,7 @@
 import socket, classes
 from threading import Thread
 
-MAX_CONNS = 5
+MAX_CONNS = 50
 PORT = 5000
 
 server = socket.socket()
